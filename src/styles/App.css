@@ -1,1 +1,16 @@
+.model-overlay{
+    border: 3px solid #7A8891;
+    width: 40vw;
+    padding: 1.5rem;
+    /* height: 15vh; */
+    margin-top: 20px;
+    background-color: #A5D1E1;
+}
 
+button{
+    background-color: #C54B52;
+    color: #FFF8F8;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
