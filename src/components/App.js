@@ -4,14 +4,14 @@ import './../styles/App.css';
 import Modal from "./Modal";
 
 const App = () => {
-  const [visible, setVisible] = useState(false);
+  const [show, setShow] = useState(false);
 
   return (
     <div>
         {/* Do not remove the main div */}
-        <button onClick={() => setVisible(true)}>Show Modal</button>
+        <button onClick={() => setShow(true)}>Show Modal</button>
         {
-          visible && <Modal show={setVisible} />
+          show && <Modal show={setShow} />
         }
     </div>
   )
